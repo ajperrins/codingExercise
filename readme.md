@@ -13,7 +13,7 @@ For this exercise, you will use the REST API defined at [swapi.co](http://swapi.
 Implement a console application which takes the following command line arguments, in order:
 
 1. A film title, enclosed in double-quotes
-2. A collection name, which identifies an array on the [Films](http://swapi.co/documentation#films) will be one of the set { 'characters', 'planets', 'starships', 'vehicles', 'species'}
+2. A property name on the [film entity](http://swapi.co/documentation#films) which represents a collection of other entities. For example, a film has a property named "characters" which is a JSON array with references to the set of [people](http://swapi.co/documentation#people) that appear in the film. The value for this second command line argument will be one of the following: "characters", "planets", "starships", "vehicles", "species".
 3. A property name, which will exist on the entity identified in number 2 above, and that propety will be a string property, not an array.
 
 For the film identified in the first argument, your application should retrieve all related entities in the collection identified by the second argument, and write the values of the property identified in the third argument to the console. The order of the output does not matter.
