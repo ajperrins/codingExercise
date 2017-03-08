@@ -49,3 +49,10 @@ Make your priorities the following:
 * Demonstrate your experience by providing professional quality work and leveraging of skills or tools that are well suited to the problem
 
 If you have any questions about this problem, feel free to ask by email.
+
+## Submission
+Preferably, post your solution on a public repository like Github or Bitbucket.
+
+Alternatively, post an archive or zip of your solution on the web or ftp (you can use a public dropbox/box URL, or your personal web-site, etc), and email us with the location.
+
+If you cannot do either of these, let us know, and we will set up a web location for you to upload an archive of your code.
