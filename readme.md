@@ -71,7 +71,7 @@ If you have any questions about this problem, feel free to ask by email.
 Model the following problem using a relational schema to track a company's employees and projects using DDL or a schema diagram:
 An employee has a name, a social security number, and a manager (except the highest employee in the org chart, who will have no manager).
 Projects have a name.
-Each project will have zero or many employees assigned to it.
+Each project will have zero or many employees assigned to it. An employee can be assigned to many projects.
 
 ### Queries
 Write queries against your schema to retrieve the following:
